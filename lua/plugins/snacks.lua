@@ -6,14 +6,28 @@ return {
   opts = {
     animate = { enabled = true },
     bigfile = { enabled = true },
+    debug = { enabled = true },
+    dim = { enabled = false },
     explorer = { enabled = true },
+    gh = { enabled = true },
     indent = { enabled = false },
     input = { enabled = false },
     notifier = {
       enabled = false,
       timeout = 3000,
     },
-    picker = { enabled = true },
+    picker = {
+      sources = {
+        gh_issue = {
+          -- your gh_issue picker configuration comes here
+          -- or leave it empty to use the default settings
+        },
+        gh_pr = {
+          -- your gh_pr picker configuration comes here
+          -- or leave it empty to use the default settings
+        }
+      }
+    },
     quickfile = { enabled = false },
     scope = { enabled = false },
     scroll = { enabled = false },
