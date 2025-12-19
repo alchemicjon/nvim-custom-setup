@@ -9,6 +9,7 @@ return {
       -- opts.indent = { enable = true, disable = { "yaml", "ruby" } }
       opts.ensure_installed = {
         "bash",
+        "css",
         "embedded_template",
         "html",
         "javascript",
@@ -20,6 +21,7 @@ return {
         "query",
         "regex",
         "ruby",
+        "scss",
         "tsx",
         "typescript",
         "vim",

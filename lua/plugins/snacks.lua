@@ -10,10 +10,12 @@ return {
     dim = { enabled = false },
     explorer = { enabled = true },
     gh = { enabled = true },
-    indent = { enabled = false },
+    git = { enabled = true },
+    image = { enabled = true },
+    indent = { enabled = true },
     input = { enabled = false },
     notifier = {
-      enabled = false,
+      enabled = true,
       timeout = 3000,
     },
     picker = {
